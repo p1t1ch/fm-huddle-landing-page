@@ -10,8 +10,8 @@ function IndexPage() {
   return (
     <div className="grid place-items-center bg-mobile sm:bg-desktop bg-no-repeat sm:bg-cover">
       <Seo title="Frontend Mentor: Huddle landing page" />
-      <div className="z-10 min-h-screen max-w-8xl p-10 lg:px-20 grid place-items-center">
-        <header className="place-self-start mb-14 lg:mb-20">
+      <div className="z-10 min-h-screen max-w-8xl p-10 lg:pt-16 lg:px-20 grid place-items-center">
+        <header className="place-self-start mb-17 lg:mb-26">
           <Logo title="Huddle logo" className="w-30 sm:w-50" />
         </header>
         <main className="grid lg:grid-cols-7 gap-15 mb-16 lg:mb-7">

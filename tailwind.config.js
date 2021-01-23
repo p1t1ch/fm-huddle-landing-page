@@ -34,6 +34,10 @@ module.exports = {
       maxWidth: {
         '8xl': '90rem',
       },
+      margin: {
+        17: '4.25rem',
+        26: '6.6rem',
+      },
       backgroundImage: {
         desktop: 'url(../icons/bg-desktop.svg)',
         mobile: 'url(../icons/bg-mobile.svg)',
