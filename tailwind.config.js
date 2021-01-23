@@ -36,7 +36,7 @@ module.exports = {
       },
       margin: {
         17: '4.25rem',
-        26: '6.6rem',
+        22: '5.5rem',
       },
       backgroundImage: {
         desktop: 'url(../icons/bg-desktop.svg)',
