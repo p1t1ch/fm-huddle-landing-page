@@ -39,4 +39,10 @@ module.exports = {
       },
     },
   },
+  variants: {
+    extend: {
+      textColor: ['focus-visible'],
+      backgroundColor: ['focus-visible'],
+    },
+  },
 }

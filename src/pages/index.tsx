@@ -15,7 +15,7 @@ function IndexPage() {
           <Logo title="Huddle logo" />
         </header>
         <main className="grid lg:grid-cols-2 gap-15 mb-16 lg:mb-7">
-          <IllustrationMockups />
+          <IllustrationMockups className="w-full" />
           <section className="text-center lg:text-left lg:mt-8">
             <h1 className="font-headings font-semibold text-2xl sm:text-h1 mb-4 lg:mb-6">
               Build The Community Your Fans Will Love
@@ -24,7 +24,7 @@ function IndexPage() {
               Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create
               connections with your users as you engage in genuine discussion.
             </p>
-            <button className="text-xs sm:text-lg w-50 h-14 font-headings bg-neutral text-primary hover:bg-primary-light hover:text-neutral transition-colors shadow rounded-full">
+            <button className="text-xs sm:text-lg w-50 h-14 font-headings bg-neutral text-primary hover:bg-primary-light hover:text-neutral focus-visible:bg-primary-light focus-visible:text-neutral transition-colors shadow rounded-full">
               Register
             </button>
           </section>

@@ -12,3 +12,7 @@
 </p>
 
 For this challenge:
+
+1. Practice with Tailwind (round 4)
+1. Use react-icons package for socials
+1. Setup focus-visible for custom focus styles
