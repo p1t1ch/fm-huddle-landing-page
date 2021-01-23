@@ -28,6 +28,7 @@ module.exports = {
         DEFAULT: '2px 4px 9px 3px rgba(0, 0, 0, 0.258633)',
       },
       width: {
+        30: '7.5rem',
         50: '12.5rem',
       },
       maxWidth: {
