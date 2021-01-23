@@ -5,33 +5,31 @@ import Social from '@/components/Social'
 import Socials from '@/components/Socials'
 import { ReactComponent as Logo } from '@/icons/logo.svg'
 import { ReactComponent as IllustrationMockups } from '@/icons/illustration-mockups.svg'
-import { ReactComponent as BgDesktop } from '@/icons/bg-desktop.svg'
-import { ReactComponent as BgMobile } from '@/icons/bg-mobile.svg'
 
 function IndexPage() {
   return (
-    <div className="grid place-items-center py-10 px-20">
-      <div className="min-h-screen max-w-7xl grid place-items-center">
-        {/* <BgDesktop /> */}
-        {/* <BgMobile /> */}
-        <Seo title="Frontend Mentor: Huddle landing page" />
-        <header className="place-self-start">
-          <Logo />
+    <div className="grid place-items-center bg-mobile sm:bg-desktop bg-no-repeat sm:bg-cover">
+      <Seo title="Frontend Mentor: Huddle landing page" />
+      <div className="z-10 min-h-screen max-w-8xl p-10 lg:px-20 grid place-items-center">
+        <header className="place-self-start mb-14 lg:mb-20">
+          <Logo title="Huddle logo" />
         </header>
-        <main className="grid grid-cols-2 gap-x-15">
-          <IllustrationMockups className="row-span-3" />
-          <section>
-            <h1 className="font-headings font-semibold text-h1 mb-6">Build The Community Your Fans Will Love</h1>
-            <p className="mb-6">
+        <main className="grid lg:grid-cols-2 gap-15 mb-16 lg:mb-7">
+          <IllustrationMockups />
+          <section className="text-center lg:text-left lg:mt-8">
+            <h1 className="font-headings font-semibold text-2xl sm:text-h1 mb-4 lg:mb-6">
+              Build The Community Your Fans Will Love
+            </h1>
+            <p className="text-base sm:text-lg mb-6">
               Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create
               connections with your users as you engage in genuine discussion.
             </p>
-            <button className="w-50 h-14 font-headings bg-neutral text-primary hover:bg-primary-light hover:text-neutral transition-colors shadow rounded-full">
+            <button className="text-xs sm:text-lg w-50 h-14 font-headings bg-neutral text-primary hover:bg-primary-light hover:text-neutral transition-colors shadow rounded-full">
               Register
             </button>
           </section>
         </main>
-        <footer className="place-self-end">
+        <footer className="lg:place-self-end">
           <Socials>
             <Social Icon={FaFacebookF} name="Facebook" link="https://www.facebook.com/" />
             <Social Icon={FaTwitter} name="Twitter" link="https://www.twitter.com/" />

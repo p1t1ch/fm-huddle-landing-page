@@ -30,6 +30,13 @@ module.exports = {
       width: {
         50: '12.5rem',
       },
+      maxWidth: {
+        '8xl': '90rem',
+      },
+      backgroundImage: {
+        desktop: 'url(../icons/bg-desktop.svg)',
+        mobile: 'url(../icons/bg-mobile.svg)',
+      },
     },
   },
 }
