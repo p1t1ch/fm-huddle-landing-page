@@ -1,4 +1,4 @@
-# Frontend Mentor: Profile card component
+# Frontend Mentor: Huddle landing page with a single introductory section
 
 <p align="center"><strong align="center">My solution for Frontend Mentor <a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0">Huddle landing page with a single introductory section</a> challenge</strong></p>
 
